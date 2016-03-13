@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F64A064D1C954ABE0043E0EA /* PlottingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A064C1C954ABE0043E0EA /* PlottingViewController.swift */; };
 		F6ACFB831C95386B0018A5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACFB821C95386B0018A5D1 /* AppDelegate.swift */; };
 		F6ACFB851C95386B0018A5D1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACFB841C95386B0018A5D1 /* FirstViewController.swift */; };
 		F6ACFB871C95386B0018A5D1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACFB861C95386B0018A5D1 /* SecondViewController.swift */; };
@@ -15,6 +16,12 @@
 		F6ACFB8F1C95386B0018A5D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6ACFB8D1C95386B0018A5D1 /* LaunchScreen.storyboard */; };
 		F6ACFB9A1C95386B0018A5D1 /* _15_ScoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACFB991C95386B0018A5D1 /* _15_ScoutTests.swift */; };
 		F6ACFBA51C95386B0018A5D1 /* _15_ScoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACFBA41C95386B0018A5D1 /* _15_ScoutUITests.swift */; };
+		F6ACFBB31C953AB30018A5D1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ACFBB21C953AB30018A5D1 /* ProfileViewController.swift */; };
+		F6F4142C1C960117003C1302 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4142B1C960117003C1302 /* SettingsTableViewCell.swift */; };
+		F6F4142E1C960157003C1302 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4142D1C960157003C1302 /* SettingsTableViewController.swift */; };
+		F6F414301C960B15003C1302 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F4142F1C960B15003C1302 /* SettingCell.xib */; };
+		F6FBEB931C95CEEE00932D60 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FBEB921C95CEEE00932D60 /* UserData.swift */; };
+		F6FBEB951C95D28100932D60 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FBEB941C95D28100932D60 /* GeneralViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F64A064C1C954ABE0043E0EA /* PlottingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlottingViewController.swift; sourceTree = "<group>"; };
 		F6ACFB7F1C95386B0018A5D1 /* 115 Scout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "115 Scout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6ACFB821C95386B0018A5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6ACFB841C95386B0018A5D1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		F6ACFBA01C95386B0018A5D1 /* 115 ScoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "115 ScoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6ACFBA41C95386B0018A5D1 /* _15_ScoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _15_ScoutUITests.swift; sourceTree = "<group>"; };
 		F6ACFBA61C95386B0018A5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6ACFBB21C953AB30018A5D1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F6F4142B1C960117003C1302 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		F6F4142D1C960157003C1302 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		F6F4142F1C960B15003C1302 /* SettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
+		F6FBEB921C95CEEE00932D60 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		F6FBEB941C95D28100932D60 /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +115,15 @@
 			children = (
 				F6ACFB821C95386B0018A5D1 /* AppDelegate.swift */,
 				F6ACFB841C95386B0018A5D1 /* FirstViewController.swift */,
+				F6FBEB921C95CEEE00932D60 /* UserData.swift */,
 				F6ACFB861C95386B0018A5D1 /* SecondViewController.swift */,
 				F6ACFB881C95386B0018A5D1 /* Main.storyboard */,
+				F6F4142B1C960117003C1302 /* SettingsTableViewCell.swift */,
+				F6F4142D1C960157003C1302 /* SettingsTableViewController.swift */,
+				F6F4142F1C960B15003C1302 /* SettingCell.xib */,
+				F6FBEB941C95D28100932D60 /* GeneralViewController.swift */,
+				F64A064C1C954ABE0043E0EA /* PlottingViewController.swift */,
+				F6ACFBB21C953AB30018A5D1 /* ProfileViewController.swift */,
 				F6ACFB8B1C95386B0018A5D1 /* Assets.xcassets */,
 				F6ACFB8D1C95386B0018A5D1 /* LaunchScreen.storyboard */,
 				F6ACFB901C95386B0018A5D1 /* Info.plist */,
@@ -237,6 +258,7 @@
 			files = (
 				F6ACFB8F1C95386B0018A5D1 /* LaunchScreen.storyboard in Resources */,
 				F6ACFB8C1C95386B0018A5D1 /* Assets.xcassets in Resources */,
+				F6F414301C960B15003C1302 /* SettingCell.xib in Resources */,
 				F6ACFB8A1C95386B0018A5D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FBEB931C95CEEE00932D60 /* UserData.swift in Sources */,
+				F6FBEB951C95D28100932D60 /* GeneralViewController.swift in Sources */,
+				F6F4142C1C960117003C1302 /* SettingsTableViewCell.swift in Sources */,
+				F64A064D1C954ABE0043E0EA /* PlottingViewController.swift in Sources */,
 				F6ACFB871C95386B0018A5D1 /* SecondViewController.swift in Sources */,
 				F6ACFB831C95386B0018A5D1 /* AppDelegate.swift in Sources */,
+				F6ACFBB31C953AB30018A5D1 /* ProfileViewController.swift in Sources */,
 				F6ACFB851C95386B0018A5D1 /* FirstViewController.swift in Sources */,
+				F6F4142E1C960157003C1302 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +517,7 @@
 				F6ACFBAB1C95386B0018A5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6ACFBAC1C95386B0018A5D1 /* Build configuration list for PBXNativeTarget "115 ScoutTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +526,7 @@
 				F6ACFBAE1C95386B0018A5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6ACFBAF1C95386B0018A5D1 /* Build configuration list for PBXNativeTarget "115 ScoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +535,7 @@
 				F6ACFBB11C95386B0018A5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
